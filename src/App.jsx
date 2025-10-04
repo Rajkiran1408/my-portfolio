@@ -5,6 +5,7 @@ import About from './components/About';
 import Technologies from './components/Technologies';
 import Projects from "./components/Projects"
 import Contact from './components/Contact';
+import Certificate from './components/Certificate';
 
 function App() {
   const projectRef=useRef(null);
@@ -34,6 +35,9 @@ function App() {
         <Technologies />
         <div ref={projectRef}>
           <Projects />
+        </div>
+        <div>
+          <Certificate />
         </div>
         <div ref={contactRef}>
           <Contact />

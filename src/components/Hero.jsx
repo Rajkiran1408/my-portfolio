@@ -41,9 +41,8 @@ const textVariants = {
 
 const roles = [
   "Full Stack Developer",
-  "Frontend Engineer",
-  "Backend Developer",
-  "UI/UX Designer",
+  "Python",
+  "Java",
   "Problem Solver",
 ];
 

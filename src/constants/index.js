@@ -1,7 +1,9 @@
 import project1 from "../assets/projects/instra-clone.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
+
+
+import certificate1 from "../assets/certificates/python.png";
+import certificate2 from "../assets/certificates/FSD.png"
 
 export const HERO_CONTENT = `I build scalable full-stack applications with modern technologies and a focus on great user experience.`;
 
@@ -28,29 +30,31 @@ export const PROJECTS = [
       "A fully functional instra-clone website with features like posting, like,comments, and user authentication.",
     technologies: ["React js", "MongoDB", "Node js", "Express js"],
   },
-  {
-    title: "Task Management App",
+ 
+];
 
-    image: project2,
+
+export const CERTIFICATES = [
+  {
+    title: "Python Programming",
+    issuer: "GUVI & HCL",
+    date: "Oct 2025",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Completed a Python programming course covering basics to advanced topics.",
+    image: certificate1,
+    link: "https://www.guvi.in/share-certificate/1lZD3M405g18706q9o",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Full stack Development",
+    issuer: "NoviTech",
+    date: "Mar 2025",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Full-stack web development training with React, Node.js, and MongoDB.",
+    image: certificate2,
+    link: "https://drive.google.com/file/d/1hMVIxa3aSrq0l4sSOPkrnUWOgmlK07if/view",
   },
 ];
+
 
 export const CONTACT = {
   
