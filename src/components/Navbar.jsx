@@ -60,7 +60,7 @@ const Navbar = () => {
           className="md:p-2 hover:text-black transition-colors"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/rajkiran-ramesh-527a96300/"
+          href="https://www.linkedin.com/in/rajkiran-ramesh-527a96300/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         >
           <FaLinkedin />
         </a>
