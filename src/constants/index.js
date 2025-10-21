@@ -1,11 +1,13 @@
 import project1 from "../assets/projects/instra-clone.png";
+import project2 from "../assets/projects/auth-system.png"
 
 
 
 import certificate1 from "../assets/certificates/python.png";
 import certificate2 from "../assets/certificates/FSD.png"
 
-export const HERO_CONTENT = `I build scalable full-stack applications with modern technologies and a focus on great user experience.`;
+export const HERO_CONTENT = `I build scalable full-stack applications with modern technologies and a focus on great user experience. I am also continuously learning Java to strengthen my backend development and problem-solving skills.`;
+
 
 export const ABOUT_TEXT = `## 👋 About Me
 
@@ -30,7 +32,16 @@ export const PROJECTS = [
       "A fully functional instra-clone website with features like posting, like,comments, and user authentication.",
     technologies: ["React js", "MongoDB", "Node js", "Express js"],
   },
- 
+  {
+    title: "Authentication System",
+    image: project2,
+    link: "https://auth-system-cl.vercel.app",
+    description:
+      "A fully functional authentication website featuring email-based login, OTP verification, and a secure forgot-password system via email OTP.",
+    technologies: [
+      "React.js","MongoDB","Node.js","Express.js","Nodemailer (Email OTP System)",
+    ],
+  },
 ];
 
 

@@ -108,24 +108,31 @@ const Hero = ({scrollToProjects,scrollToContact}) => {
             >
               {roles[index]}
             </motion.p>
-
+            
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 text-lg text-white"
+              className="my-4 w-full px-auth max-w-2xl sm:mx-auth mx-auth px-6 text-base sm:text-lg text-white "
             >
               {HERO_CONTENT}
             </motion.p>
+
             <div className="flex gap-3">
               <div className="p-[2px] rounded-2xl bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
-                <button onClick={scrollToProjects} className="bg-neutral-950 rounded-2xl p-2 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-shadow">
+                <button
+                  onClick={scrollToProjects}
+                  className="bg-neutral-950 rounded-2xl p-2 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-shadow"
+                >
                   Project
                 </button>
               </div>
 
               <div className="p-[2px] rounded-2xl bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
-                <button onClick={scrollToContact} className="bg-neutral-950 rounded-2xl p-2 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-shadow">
+                <button
+                  onClick={scrollToContact}
+                  className="bg-neutral-950 rounded-2xl p-2 hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-shadow"
+                >
                   Contact
                 </button>
               </div>

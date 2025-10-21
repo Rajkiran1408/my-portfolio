@@ -13,8 +13,7 @@ const experiences = [
     role: "CGPA",
     company: "A.V.C college of Engineering",
     date: "",
-    description:
-      "8.2+",
+    description: "8.2+",
   },
 
   {
@@ -23,6 +22,13 @@ const experiences = [
     date: "2025 – Present",
     description:
       "Designed and deployed responsive portfolio websites and real-time chat apps using React + Socket.io.",
+  },
+  {
+    role: "Industrial Visit (IV)",
+    company: "ASKAN Technologies Pvt Ltd , Pondicherry",
+    date: "15-oct-2025",
+    description:
+      "Participated in an industrial visit where we explored new IT technologies and gained insights into modern software development practices.",
   },
 ];
 
